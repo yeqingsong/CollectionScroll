@@ -19,6 +19,8 @@
 		78A46C82210AE9AB001539E6 /* GalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C7E210AE9AB001539E6 /* GalleryFlowLayout.m */; };
 		78A46C86210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A46C83210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib */; };
 		78A46C87210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C85210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m */; };
+		78A46C8B210EAE00001539E6 /* sadaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C89210EAE00001539E6 /* sadaTableViewCell.m */; };
+		78A46C8C210EAE00001539E6 /* sadaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A46C8A210EAE00001539E6 /* sadaTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		78A46C83210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewShowGalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 		78A46C84210AFA10001539E6 /* NewShowGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewShowGalleryCollectionViewCell.h; sourceTree = "<group>"; };
 		78A46C85210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewShowGalleryCollectionViewCell.m; sourceTree = "<group>"; };
+		78A46C88210EAE00001539E6 /* sadaTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sadaTableViewCell.h; sourceTree = "<group>"; };
+		78A46C89210EAE00001539E6 /* sadaTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sadaTableViewCell.m; sourceTree = "<group>"; };
+		78A46C8A210EAE00001539E6 /* sadaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sadaTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +133,9 @@
 				78A46C51210AE5E4001539E6 /* LaunchScreen.storyboard */,
 				78A46C54210AE5E4001539E6 /* Info.plist */,
 				78A46C55210AE5E4001539E6 /* main.m */,
+				78A46C88210EAE00001539E6 /* sadaTableViewCell.h */,
+				78A46C89210EAE00001539E6 /* sadaTableViewCell.m */,
+				78A46C8A210EAE00001539E6 /* sadaTableViewCell.xib */,
 			);
 			path = CollectionScroll;
 			sourceTree = "<group>";
@@ -255,6 +263,7 @@
 			files = (
 				78A46C53210AE5E4001539E6 /* LaunchScreen.storyboard in Resources */,
 				78A46C86210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib in Resources */,
+				78A46C8C210EAE00001539E6 /* sadaTableViewCell.xib in Resources */,
 				78A46C50210AE5E4001539E6 /* Assets.xcassets in Resources */,
 				78A46C4E210AE5E2001539E6 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +295,7 @@
 				78A46C56210AE5E4001539E6 /* main.m in Sources */,
 				78A46C81210AE9AB001539E6 /* LineLayout.m in Sources */,
 				78A46C82210AE9AB001539E6 /* GalleryFlowLayout.m in Sources */,
+				78A46C8B210EAE00001539E6 /* sadaTableViewCell.m in Sources */,
 				78A46C48210AE5E2001539E6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
