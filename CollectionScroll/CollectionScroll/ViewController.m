@@ -56,6 +56,9 @@ CGFloat cellGap = 30.0;
     }
     [self.dataArray addObjectsFromArray:array];
 }
+-(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    
+}
 -(NSMutableArray*) dataArray{
     if (!_dataArray) {
         _dataArray = [[NSMutableArray alloc]init];

@@ -13,30 +13,32 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NewShowGalleryCollectionViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="411" height="328"/>
+            <rect key="frame" x="0.0" y="0.0" width="382" height="294"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="411" height="328"/>
+                <rect key="frame" x="0.0" y="0.0" width="382" height="294"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RsY-sk-ces">
-                        <rect key="frame" x="49.5" y="8" width="312" height="312"/>
+                        <rect key="frame" x="74" y="30" width="234" height="234"/>
+                        <color key="backgroundColor" red="0.56412760419999997" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="RsY-sk-ces" secondAttribute="height" multiplier="1:1" id="nuf-4C-Z5W"/>
                         </constraints>
                     </imageView>
                 </subviews>
             </view>
+            <color key="backgroundColor" red="0.37689887150000001" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="RsY-sk-ces" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Qck-Na-ZL8"/>
-                <constraint firstItem="RsY-sk-ces" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="mIY-Bx-cFn"/>
+                <constraint firstItem="RsY-sk-ces" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="mIY-Bx-cFn"/>
                 <constraint firstItem="RsY-sk-ces" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="x2R-6e-GiH"/>
             </constraints>
-            <size key="customSize" width="427" height="382"/>
+            <size key="customSize" width="398" height="348"/>
             <connections>
                 <outlet property="imgV" destination="RsY-sk-ces" id="Gze-zo-MFm"/>
             </connections>
-            <point key="canvasLocation" x="76.5" y="86"/>
+            <point key="canvasLocation" x="62" y="69"/>
         </collectionViewCell>
     </objects>
 </document>

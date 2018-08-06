@@ -15,7 +15,8 @@
 //        UICollectionViewScrollDirection
         
         self.scrollDirection = UICollectionViewScrollDirectionHorizontal;//设置为水平显示
-        self.sectionInset = UIEdgeInsetsMake(0, 30, 0, 0);
+
+        self.sectionInset = UIEdgeInsetsMake(0, 30, 0, 0);//CGFloat top, left, bottom, right
         self.minimumLineSpacing = 30.0;//cell的最小间隔
     }
     return self;

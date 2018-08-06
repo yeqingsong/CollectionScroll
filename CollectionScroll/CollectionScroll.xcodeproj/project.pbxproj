@@ -16,7 +16,6 @@
 		78A46C60210AE5E4001539E6 /* CollectionScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C5F210AE5E4001539E6 /* CollectionScrollTests.m */; };
 		78A46C6B210AE5E4001539E6 /* CollectionScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C6A210AE5E4001539E6 /* CollectionScrollUITests.m */; };
 		78A46C81210AE9AB001539E6 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C7C210AE9AB001539E6 /* LineLayout.m */; };
-		78A46C82210AE9AB001539E6 /* GalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C7E210AE9AB001539E6 /* GalleryFlowLayout.m */; };
 		78A46C86210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A46C83210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib */; };
 		78A46C87210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A46C85210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m */; };
 /* End PBXBuildFile section */
@@ -56,9 +55,7 @@
 		78A46C6A210AE5E4001539E6 /* CollectionScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionScrollUITests.m; sourceTree = "<group>"; };
 		78A46C6C210AE5E4001539E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A46C78210AE9AA001539E6 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
-		78A46C79210AE9AA001539E6 /* GalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryFlowLayout.h; sourceTree = "<group>"; };
 		78A46C7C210AE9AB001539E6 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
-		78A46C7E210AE9AB001539E6 /* GalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryFlowLayout.m; sourceTree = "<group>"; };
 		78A46C83210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewShowGalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 		78A46C84210AFA10001539E6 /* NewShowGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewShowGalleryCollectionViewCell.h; sourceTree = "<group>"; };
 		78A46C85210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewShowGalleryCollectionViewCell.m; sourceTree = "<group>"; };
@@ -115,8 +112,6 @@
 				78A46C84210AFA10001539E6 /* NewShowGalleryCollectionViewCell.h */,
 				78A46C85210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m */,
 				78A46C83210AFA10001539E6 /* NewShowGalleryCollectionViewCell.xib */,
-				78A46C79210AE9AA001539E6 /* GalleryFlowLayout.h */,
-				78A46C7E210AE9AB001539E6 /* GalleryFlowLayout.m */,
 				78A46C78210AE9AA001539E6 /* LineLayout.h */,
 				78A46C7C210AE9AB001539E6 /* LineLayout.m */,
 				78A46C46210AE5E2001539E6 /* AppDelegate.h */,
@@ -285,7 +280,6 @@
 				78A46C87210AFA10001539E6 /* NewShowGalleryCollectionViewCell.m in Sources */,
 				78A46C56210AE5E4001539E6 /* main.m in Sources */,
 				78A46C81210AE9AB001539E6 /* LineLayout.m in Sources */,
-				78A46C82210AE9AB001539E6 /* GalleryFlowLayout.m in Sources */,
 				78A46C48210AE5E2001539E6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
